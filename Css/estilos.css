@@ -210,9 +210,12 @@ h4 {
 @media screen and (max-width: 599px) {
   .about {
     height: auto;
-    margin-top: 80px; }
+    margin-top: 100px;
+    margin-bottom: 100px; }
   .ab::after {
-    content: none; } }
+    content: none; }
+  .resume {
+    margin-top: 40px; } }
 
 .contact {
   height: 1000px;
@@ -476,7 +479,7 @@ a .fa-envelope:hover {
   width: auto;
   height: auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin-top: 140px;
@@ -502,7 +505,7 @@ a .fa-envelope:hover {
   top: -4px;
   width: 35px;
   height: 1px;
-  margin-left: -200px; }
+  margin-left: -220px; }
 
 .direccion {
   display: flex;
@@ -524,7 +527,7 @@ a .fa-envelope:hover {
 /* MOBILE */
 @media screen and (max-width: 599px) {
   .technologies {
-    height: auto; }
+    height: 600px; }
   .direccion img {
     width: 50px;
     padding: 5px; }

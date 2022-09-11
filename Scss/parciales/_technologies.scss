@@ -3,7 +3,7 @@
     height: auto;
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 140px;
@@ -32,7 +32,7 @@
     top: -4px;
     width: 35px;
     height: 1px;
-    margin-left: -200px;
+    margin-left: -220px;
 }
 
 .direccion{
@@ -65,7 +65,7 @@
 /* MOBILE */
 @media screen and (max-width: 599px){
     .technologies{
-        height: auto;
+        height: 600px;
     }
     .direccion img{
         width: 50px;
