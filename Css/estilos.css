@@ -8,6 +8,9 @@ body {
   margin: 0;
   background-color: #333435; }
 
+.navbar-nav a {
+  font-family: 'Baloo Paaji 2', cursive; }
+
 h1 {
   font-size: 150px;
   font-weight: bold;
@@ -21,6 +24,7 @@ h2 {
   color: #f0f0f0; }
 
 h3 {
+  font-family: 'Baloo Paaji 2', cursive;
   font-size: 34px;
   color: red; }
 
@@ -29,6 +33,7 @@ h3 {
   font-size: 60px; }
 
 h4 {
+  font-family: 'Baloo Paaji 2', cursive;
   text-align: center;
   color: white;
   font-size: 28px; }
@@ -178,7 +183,8 @@ h4 {
   top: -28px;
   width: 35px;
   height: 1px;
-  margin-left: 20px; }
+  margin-left: 20px;
+  font-family: 'Baloo Paaji 2', cursive; }
 
 .ab::after {
   content: "";
@@ -261,7 +267,8 @@ h4 {
   top: -28px;
   width: 35px;
   height: 1px;
-  margin-left: 20px; }
+  margin-left: 20px;
+  font-family: 'Baloo Paaji 2', cursive; }
 
 .ct::after {
   content: "";
@@ -393,7 +400,8 @@ a .fa-envelope:hover {
   top: -4px;
   width: 35px;
   height: 1px;
-  margin-left: -240px; }
+  margin-left: -240px;
+  font-family: 'Baloo Paaji 2', cursive; }
 
 .examples {
   margin-top: 40px;
@@ -452,7 +460,8 @@ a .fa-envelope:hover {
 .detalles a {
   text-decoration: none;
   color: white;
-  font-size: 32px; }
+  font-size: 32px;
+  font-family: 'Baloo Paaji 2', cursive; }
 
 /* MEDIA QUERY */
 /*  PANTALLA GRANDE */
@@ -505,7 +514,8 @@ a .fa-envelope:hover {
   top: -4px;
   width: 35px;
   height: 1px;
-  margin-left: -220px; }
+  margin-left: -220px;
+  font-family: 'Baloo Paaji 2', cursive; }
 
 .direccion {
   display: flex;
@@ -572,6 +582,15 @@ a .fa-envelope:hover {
   height: 350px;
   border-radius: 30px; }
 
+.navbar-nav i a {
+  font-family: 'Baloo Paaji 2', cursive; }
+
+.navbar-nav i {
+  margin-right: 10px; }
+
+/* 
+    font-family: 'Baloo Paaji 2', cursive;
+*/
 /* MEDIA QUERY */
 /*  PANTALLA GRANDE */
 /* TABLET */
