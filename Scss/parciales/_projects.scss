@@ -1,0 +1,148 @@
+.projects{
+    width: auto;
+    height: 1440px;
+
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sep{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pj{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+.pj::before {
+    content: "2.";
+    display: block;
+    position: relative;
+    color: red;
+    font-size: 34px;
+    font-weight: bold;
+    top: -4px;
+    width: 35px;
+    height: 1px;
+    margin-left: -240px;
+}
+
+
+.examples{
+    margin-top: 40px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.e1, .e2, .e3, .e4, .e5, .e6{
+    width: 500px;
+    height: 300px;
+
+    border-radius: 10px;
+    background-color: #333;
+/*     border-radius: 10px; */
+
+    position: relative; 
+    overflow: hidden; 
+    cursor: pointer;
+}
+
+
+.top img, .bottom img{
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.card-title{
+    width: auto;
+    background-color: white;
+    border-radius: 0px 5px 5px 0px;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    font-size: 20px;
+    text-shadow: 0 0 1px rgba(0, 0, 0, .5);
+}
+
+.detalles{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.detalles a{
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+}
+
+/* MEDIA QUERY */
+
+/*  PANTALLA GRANDE */
+@media screen and (min-width: 1400px) {
+    .projects{
+        height: 760px;
+    }
+    .detalles{
+        margin-top: 50px;
+    }
+}
+
+  /* TABLET */
+@media screen and (max-width: 1023px){
+
+}
+
+/* MOBILE */
+@media screen and (max-width: 599px){
+    .projects{
+        margin-top: 40px;
+        height: auto;
+    }
+    .e1, .e2, .e3, .e4, .e5, .e6{
+        width: 280px;
+        height: 160px;
+    }
+    
+    
+    .top img, .bottom img{
+        width: 280px;
+        height: 160px;
+    }
+}

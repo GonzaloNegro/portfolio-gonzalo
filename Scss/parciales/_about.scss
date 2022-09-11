@@ -1,0 +1,84 @@
+.about{
+    height: 1440px;
+    width: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ab{
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+.ab::before {
+    content: "1.";
+    display: block;
+    position: relative;
+    color: red;
+    font-size: 34px;
+    font-weight: bold;
+    top: -28px;
+    width: 35px;
+    height: 1px;
+    margin-left: 20px;
+
+}
+
+.ab::after {
+    content: "";
+    display: block;
+    position: relative;
+    top: -5px;
+    width: 300px;
+    height: 1px;
+    margin-left: 20px;
+    background-color: red;
+}
+
+.resume{
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MEDIA QUERY */
+
+/*  PANTALLA GRANDE */
+@media screen and (min-width: 1400px) {
+    .about{
+        height: 800px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+
+  /* TABLET */
+@media screen and (max-width: 1023px){
+
+}
+
+/* MOBILE */
+@media screen and (max-width: 599px){
+    .about{
+        height: auto;
+        margin-top: 80px;
+    }
+    .ab::after {
+        content: none;
+    }
+}

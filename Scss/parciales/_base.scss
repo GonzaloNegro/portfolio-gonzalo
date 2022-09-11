@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(51, 52, 53);
+}
+
+h1{
+    font-size: 150px;
+    font-weight: bold;
+    font-family: 'Baloo Paaji 2', cursive;
+    color: rgb(240, 240, 240);
+
+}
+
+h2{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Baloo Paaji 2', cursive;
+    color: rgb(240, 240, 240);
+
+}
+
+h3{
+    font-size: 34px;
+    color: red;
+}
+
+.mark_red{
+    color: red;
+    font-size: 60px;
+}
+
+h4{    
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+
+.mark_enl{
+    color: red;
+}
+
+.resume a{
+    text-decoration: none;
+    color: red;
+}
+
+/* MEDIA QUERY */
+
+/*  PANTALLA GRANDE */
+@media screen and (min-width: 1400px) {
+
+}
+
+  /* TABLET */
+@media screen and (max-width: 1023px){
+
+}
+
+/* MOBILE */
+@media screen and (max-width: 599px){
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    .mark_red{
+        font-size: 24px;
+    }
+    h4{    
+        font-size: 18px;
+    }
+}

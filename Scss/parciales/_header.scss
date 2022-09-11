@@ -1,0 +1,32 @@
+.navbar-brand, .nav-link{
+    color: black;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand:hover, .nav-link:hover{
+    color: black;
+}
+
+.ubicacion{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color{
+    background-color: rgb(240, 240, 240);
+}
+
+.variacion {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .4s;}
+    .variacion:hover {
+      background-size: 100% 1px; }
+    .variacion:focus {
+      background-size: 100% 1px; }

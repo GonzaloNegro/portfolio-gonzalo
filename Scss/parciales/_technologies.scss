@@ -1,0 +1,80 @@
+.technologies{
+    width: auto;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 140px;
+    margin-bottom: 40px;
+}
+
+.tec{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+.tec::before {
+    content: "3.";
+    display: block;
+    position: relative;
+    color: red;
+    font-size: 34px;
+    font-weight: bold;
+    top: -4px;
+    width: 35px;
+    height: 1px;
+    margin-left: -200px;
+}
+
+.direccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.direccion img{
+    width: 150px;
+    padding: 10px;
+}
+
+
+/* MEDIA QUERY */
+
+/*  PANTALLA GRANDE */
+@media screen and (min-width: 1400px) {
+    .technologies{
+        height: 760px;
+    }
+}
+
+  /* TABLET */
+@media screen and (max-width: 1023px){
+
+}
+
+/* MOBILE */
+@media screen and (max-width: 599px){
+    .technologies{
+        height: auto;
+    }
+    .direccion img{
+        width: 50px;
+        padding: 5px;
+    }
+    .examples{
+        width: 300px;
+    }
+    .carousel .slide{
+        width: 300px;
+    }
+}
