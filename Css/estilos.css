@@ -95,7 +95,7 @@ h4 {
   background: linear-gradient(0deg, #333435 0%, #f0f0f0 100%); }
 
 .home {
-  height: 1440px;
+  min-height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -137,14 +137,15 @@ h4 {
 
 /* MEDIA QUERY */
 /*  PANTALLA GRANDE */
-@media screen and (min-width: 1024px) {
-  .home {
-    height: 760px; } }
-
+/* @media screen and (min-width: 1401px) {
+    .home{
+        height: 1200px;
+    }
+} */
 /* TABLET */
-@media screen and (max-width: 1023px) {
+@media screen and (min-width: 1900px) {
   .home {
-    height: 760px; } }
+    height: 1200px; } }
 
 /* MOBILE */
 @media screen and (max-width: 599px) {
