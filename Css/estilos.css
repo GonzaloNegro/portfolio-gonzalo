@@ -137,11 +137,15 @@ h4 {
 
 /* MEDIA QUERY */
 /*  PANTALLA GRANDE */
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1024px) {
   .home {
     height: 760px; } }
 
 /* TABLET */
+@media screen and (max-width: 1023px) {
+  .home {
+    height: 760px; } }
+
 /* MOBILE */
 @media screen and (max-width: 599px) {
   .home {
