@@ -150,7 +150,7 @@ h4 {
 /* MOBILE */
 @media screen and (max-width: 599px) {
   .home {
-    height: auto; }
+    min-height: 400px; }
   .home-tit h2:after {
     content: none; }
   .home-img-circ {
@@ -487,7 +487,11 @@ a .fa-envelope:hover {
     height: 160px; }
   .top img, .bottom img {
     width: 280px;
-    height: 160px; } }
+    height: 160px; }
+  .top a {
+    margin-top: 20px; }
+  .bottom a {
+    margin-top: 20px; } }
 
 .technologies {
   width: auto;
@@ -542,14 +546,17 @@ a .fa-envelope:hover {
 /* MOBILE */
 @media screen and (max-width: 599px) {
   .technologies {
-    height: 600px; }
+    height: 500px; }
   .direccion img {
     width: 50px;
     padding: 5px; }
   .examples {
     width: 300px; }
   .carousel .slide {
-    width: 300px; } }
+    width: 300px; }
+  .technologies {
+    margin-top: 0px;
+    margin-bottom: 0px; } }
 
 .division {
   height: 700px;
